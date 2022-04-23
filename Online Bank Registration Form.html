@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bank Statement</title>
+</head>
+
+<body>
+    <h1>Bank Account Registration Form</h1>
+    <p>Create your bank account by filling in this bank account registration form. All mandatory<br />fields are marked with an asterick(<span style="color: red">&#42;</span>).</p>
+    <h2>IMPORTANT INFORMATION FOR OPENING A NEW ACCOUNT</h2>
+    <p>To help fight the funding of terrorism and money laundering activities, federal law requires<br />all financial institutions to collect, validate, and record information that identifies each<br />person who opens an account</p>
+    <hr>
+    <h3 style="color: green; text-size: 20px">Account Type</h3>
+    <hr>
+    <label>please specify the type of account you want to open.  <span style="color: red">&#42;</span></label><br />
+    <select name="banks" required="account selection" contenteditable="option" required>
+     <option value=""></option>
+     <option value="">UBA</option>
+     <option value="">Bank Mandiri</option>
+     <option value="">United kingdom Bank</option>
+     <option value="">Bank of the United States</option>
+   </select><br>
+    <label>
+     Currency </label> <span style="color: red">&#42;</span><br>
+    <input type="radio" name="test" id="USD" />
+    <label>USD</label><br>
+    <input type="radio" name="test" id="EUR" />
+    <label>EUR</label><br>
+    <hr>
+    <h4 style="color: green; font-size: 20px;">contact information</h4>
+    <hr>
+    <!--<label style="font-size: 18px"><strong>Full Name</strong></label><span style="color: red">&#42;</span><br />
+        <textarea name="name" required rows="1" cols="40"></textarea><br>
+        <label style="font-size: 14px">First Name</label><br>
+        <textarea name="name" required rows="1" cols="40"></textarea><br>
+        <label style="font-size: 14px">Last Name</label><br>
+        <label style="font-size: 18px"><strong>Permanent Address</strong></label><span style="color: red">&#42;</span><br>
+        <textarea name="name" required rows="1" cols="40"></textarea><br>
+        <label style="font-size: 14px">Street Address</label><br />
+        <textarea name="name" required rows="1" cols="40"></textarea><br>
+        <label style="font-size: 14px">Street Address Line 2</label><br>
+        <textarea name="name" required rows="1" cols="40"></textarea><br>
+        <label style="font-size: 14px">City</label><br>
+        <textarea name="name" required rows="1" cols="40"></textarea><br>
+        <label style="font-size: 14px">State / Province</label><br>
+        <textarea name="name" required rows="1" cols="40"></textarea><br>
+        <label style="font-size: 14px">Postal / Zip Code</label><br>
+        <select class="country" name="country">
+          <option name="country">Please Select</option>
+          <option name="country">United States</option>
+          <option name="country">Afghanistan</option>
+          <option name="country">Albania</option>
+          <option name="country">Algeria</option>
+          <option name="country">American Samoa</option>
+          <option name="country">Andorra</option>
+          <option name="country">Angola</option>
+          <option name="country">Anguilla</option>
+          <option name="country">Antigua and Barbuda</option>
+          <option name="country">Argentina</option>
+          <option name="country">Armenia</option>
+          <option name="country">Aruba</option>
+          <option name="country">Australia</option>
+          <option name="country">Austria</option>
+          <option name="country">Azerbaijan</option>
+          <option name="country">The Bahamas</option>
+          <option name="country">Bahrain</option>
+          <option name="country">Bangladesh</option>
+          <option name="country"></option>
+          <option name="country"></option>
+        </select>-->
+    <label>Name</label><span style="color: red">&#42;</span><br>
+    <select required>
+          <option value="">Title</option>
+          <option value="">Chief</option>
+          <option value="">Doctor</option>
+          <option value="">Mr</option>
+          <option value="">Mrs</option>
+        </select>
+    <textarea name="" id="" cols="20" rows="1" required>First</textarea> <textarea name="" id="" cols="10" rows="1" required>Initials</textarea><br>
+    <textarea name="" id="" cols="30" rows="1.5" required>Middle</textarea> <textarea name="" id="" cols="20" rows="1" required>Last</textarea><br>
+    <p> </p>
+    <table required>
+        <thead>
+            <tr>
+                <th style="text-align: left"><label>Telephone</label><span style="color: red">&#42</span></th>
+                <th style="text-align: left"><label>E-mail</label><span style="color: red">&#42</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><textarea name="" id="" cols="30" rows="2">### ### ####</textarea></td>
+                <td><textarea name="" id="" cols="30" rows="2"></textarea></td>
+            </tr>
+        </tbody>
+    </table>
+    <label for="">Mailing Home Address</label><span style="color: red">&#42</span><br>
+    <textarea name="" id="" cols="100" rows="2" required>Street Address</textarea><br>
+    <table>
+        <thead>
+            <tr>
+                <th> </th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <textarea name="" id="" cols="30" rows="2" required>City</textarea></td>
+                <td>
+                    <Select style="width: 200px; height: 34px;" required>
+            <option value="">State</option>
+            <option value="">United State</option>
+            <option value="">Ontario</option>
+            <option value="">United kingdom</option>
+            <option value="">Manchester United</option>
+            <option value="">London</option>
+
+          </Select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="" id="" required cols="30" rows="2" autocapitalize="words">Postal / Zip Code</textarea></td>
+                <td>
+                    <select name="" id="" required style="width: 200px; height: 34px;">
+                <option value="">Country</option>
+                <option value="">United States</option>
+                <option value="">London</option>
+                <option value="">Dubai</option>
+                <option value="">Canada</option>
+              </select></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h5 style="color: green; font-size: 20px">Identification</h5>
+    <hr>
+    <label for="">Citizenship.</label><span style="color: red">&#42</span><br>
+    <p> </p>
+
+    <input type="radio" name="test" id="U.S Citizen"><label>U.S Citizen</label><input type="radio" name="test" id="E.U Citizen"><label>E.U Citizen</label><input type="radio" name="test" id="Other"><label>Other</label><br>
+    <p> </p>
+    <table required>
+        <thead>
+            <tr>
+                <th style="text-align: left"><label>DOB</label><span style="color: red">&#42</span></th>
+                <th style="text-align: left"><label>Marital Status</label><span style="color: red">&#42</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" name="" id=""></td>
+                <td>
+                    <Select style="width: 200px; height: 20px;">
+                    <option value="">Single</option>
+                    <option value="">Married</option>
+        
+                  </Select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table required>
+        <thead>
+            <tr>
+                <th style="text-align: left"><label>Language</label><span style="color: red">&#42</span></th>
+                <th style="text-align: left"><label>Occupation</label><span style="color: red">&#42</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <Select style="width: 200px; height: 20px;">
+                        <option value="">English</option>
+                        <option value="">Afrikan</option>
+            
+                      </Select>
+                </td>
+                <td>
+                    <Select style="width: 200px; height: 20px;">
+                        <option value="">Student</option>
+                        <option value="">Self-Employed</option>
+            
+                      </Select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="progression.html"><button onclick="changecontent();">Submit</button></a>
+    <script type="text/javascript">
+        function changecontent() {
+            alert(Welcome to Zenith bank)
+        }
+    </script>
+
+
+</body>
+
+</html>
